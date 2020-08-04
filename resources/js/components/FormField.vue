@@ -16,6 +16,8 @@
 import { FormField, HandlesValidationErrors } from 'laravel-nova'
 import trumbowyg from 'vue-trumbowyg';
 import 'trumbowyg/dist/ui/trumbowyg.css';
+import 'trumbowyg/dist/plugins/table/ui/trumbowyg.table.css';
+import 'trumbowyg/dist/plugins/table/trumbowyg.table.js';
 
 export default {
     mixins: [FormField, HandlesValidationErrors],
